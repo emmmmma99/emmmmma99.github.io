@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="index.css" type="text/css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ovo&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <style type="text/css"></style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      </head>
+    <body>
+      <section class="sub-header">
+        <nav>
+          <a href="index.html">
+            <img src="images/julia (1).jpeg">
+          </a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="projects.html">PROJECTS</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Me</h1>
+      </section>
+
+      <!--  About Me Content  -->
+
+      <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Helloooooour</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique impedit reiciendis a vero est possimus? Magni vitae quae incidunt officia quam, ipsam ducimus. Quasi similique voluptate nesciunt officiis voluptatibus quibusdam! <br> <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, adipisci laborum veniam maiores accusantium fugiat odit ipsam error atque quaerat officia corporis, eveniet nihil eligendi, laudantium hic. Error, eligendi earum.<br> <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, adipisci laborum veniam maiores accusantium fugiat odit ipsam error atque quaerat officia corporis, eveniet nihil eligendi, laudantium hic. Error, eligendi earum.</p>
+                <a href="projects.html" class="ctct-btn pink-btn">Explore Projects</a>
+            </div>
+            <div class="about-col">
+                <img src="images/IMG_9521.jpeg">
+            </div>
+        </div>
+      </section>
+
+
+
+
+     <!--JavaScript for Toggle Menu-->  
+
+     <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+          navLinks.style.right = "0";
+        }
+        function hideMenu(){
+          navLinks.style.right = "-200px";
+        }
+     </script>     
+    </body>
+
+    <!--  Footer  -->
+    <footer class="footer">
+      <h4>About Me</h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, adipisci laborum veniam maiores accusantium fugiat odit ipsam error atque quaerat officia corporis, <br>eveniet nihil eligendi, laudantium hic. Error, eligendi earum.<br> <br> </p>
+      <div class="icons">
+        <a href="https://github.com/emmmmma99" target=”_blank”><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/emma-m-b67b43140/" target=”_blank”><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/emma.martinez99/" target=”_blank”><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://medium.com/@emmmmma_martinez" target=”_blank”><i class="fa-brands fa-medium"></i></a>
+      </div>
+      <p><br>Made with <i class="fa-regular fa-heart"></i> by Emma</p>
+    </footer>
+</html>
+
