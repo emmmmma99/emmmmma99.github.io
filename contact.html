@@ -78,6 +78,10 @@
         function hideMenu(){
           navLinks.style.right = "-200px";
         }
+
+        window.addEventListener("pageshow", function () {
+        document.querySelector("form").reset();
+        });
      </script>     
     </body>
 
